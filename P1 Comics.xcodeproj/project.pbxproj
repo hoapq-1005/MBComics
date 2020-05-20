@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		401071F42474D8DF005F81E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401071F32474D8DF005F81E3 /* AppDelegate.swift */; };
 		401071F62474D8DF005F81E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401071F52474D8DF005F81E3 /* SceneDelegate.swift */; };
-		401071F82474D8DF005F81E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401071F72474D8DF005F81E3 /* ViewController.swift */; };
 		401071FD2474D8E3005F81E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401071FC2474D8E3005F81E3 /* Assets.xcassets */; };
 		401072002474D8E3005F81E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401071FE2474D8E3005F81E3 /* LaunchScreen.storyboard */; };
 		401072382474D93F005F81E3 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072092474D93F005F81E3 /* UIImageViewExtension.swift */; };
@@ -44,6 +43,8 @@
 		401072552474D93F005F81E3 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072372474D93F005F81E3 /* GrowingTextView.swift */; };
 		401072592474DAA2005F81E3 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072582474DAA2005F81E3 /* Application.swift */; };
 		4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4010725A2474DC13005F81E3 /* GoogleService-Info.plist */; };
+		4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061871724750E3A007C8F8D /* HomeViewController.swift */; };
+		4061871A24750E3A007C8F8D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4061871824750E3A007C8F8D /* HomeViewController.xib */; };
 		B19C4D24F6E25D5ED3614196 /* Pods_P1_Comics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9A4ED4E94887B967C034A8 /* Pods_P1_Comics.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +53,6 @@
 		401071F02474D8DF005F81E3 /* P1 Comics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P1 Comics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401071F32474D8DF005F81E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		401071F52474D8DF005F81E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		401071F72474D8DF005F81E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		401071FC2474D8E3005F81E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401071FF2474D8E3005F81E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		401072012474D8E3005F81E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +88,8 @@
 		401072372474D93F005F81E3 /* GrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
 		401072582474DAA2005F81E3 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		4010725A2474DC13005F81E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4061871724750E3A007C8F8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4061871824750E3A007C8F8D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		66F25F8B293B42E7070BEB7F /* Pods-P1 Comics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P1 Comics.release.xcconfig"; path = "Target Support Files/Pods-P1 Comics/Pods-P1 Comics.release.xcconfig"; sourceTree = "<group>"; };
 		8B011B9BBA79E5C0CB0D9BC4 /* Pods-P1 Comics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P1 Comics.debug.xcconfig"; path = "Target Support Files/Pods-P1 Comics/Pods-P1 Comics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -349,7 +351,8 @@
 		409E1AEE2474E4CF0056BF6D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				401071F72474D8DF005F81E3 /* ViewController.swift */,
+				4061871824750E3A007C8F8D /* HomeViewController.xib */,
+				4061871724750E3A007C8F8D /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				4010724D2474D93F005F81E3 /* LoadingView.xib in Resources */,
 				401072542474D93F005F81E3 /* LoadFailView.xib in Resources */,
 				4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */,
+				4061871A24750E3A007C8F8D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +509,6 @@
 			files = (
 				401072592474DAA2005F81E3 /* Application.swift in Sources */,
 				401072412474D93F005F81E3 /* NSNumberExtension.swift in Sources */,
-				401071F82474D8DF005F81E3 /* ViewController.swift in Sources */,
 				401072402474D93F005F81E3 /* DateExtension.swift in Sources */,
 				401071F42474D8DF005F81E3 /* AppDelegate.swift in Sources */,
 				4010723E2474D93F005F81E3 /* StringExtension.swift in Sources */,
@@ -525,6 +528,7 @@
 				4010723C2474D93F005F81E3 /* UIViewControllerExtension.swift in Sources */,
 				4010724C2474D93F005F81E3 /* BaseCLCell.swift in Sources */,
 				401072472474D93F005F81E3 /* DLog.swift in Sources */,
+				4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */,
 				401072532474D93F005F81E3 /* LoadFailView.swift in Sources */,
 				4010723A2474D93F005F81E3 /* ArrayExtension.swift in Sources */,
 				4010723D2474D93F005F81E3 /* UIViewExtension.swift in Sources */,
