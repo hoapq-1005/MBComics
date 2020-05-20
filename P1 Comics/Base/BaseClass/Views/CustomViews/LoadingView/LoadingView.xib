@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="ToRingMovie" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="Yg6-JG-fLG" id="y98-I8-Hef"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="7cX-fi-pnL"/>
+                <outlet property="viewBlurBackground" destination="sww-ps-qtk" id="JHn-xj-Hd6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="510" height="689"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sww-ps-qtk">
+                    <rect key="frame" x="0.0" y="0.0" width="510" height="689"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-JG-fLG">
+                    <rect key="frame" x="220" y="309.5" width="70" height="70"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="Unk-US-wsN"/>
+                        <constraint firstAttribute="width" secondItem="Yg6-JG-fLG" secondAttribute="height" multiplier="1:1" id="Xgm-JG-Cwm"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Yg6-JG-fLG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BsL-HR-Qhb"/>
+                <constraint firstItem="Yg6-JG-fLG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PeB-xj-g9C"/>
+                <constraint firstItem="sww-ps-qtk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Sho-U1-BC1"/>
+                <constraint firstAttribute="trailing" secondItem="sww-ps-qtk" secondAttribute="trailing" id="iyv-Vt-IBh"/>
+                <constraint firstAttribute="bottom" secondItem="sww-ps-qtk" secondAttribute="bottom" id="k3t-zo-YS7"/>
+                <constraint firstItem="sww-ps-qtk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oNc-ae-OBH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="117.39130434782609" y="-33.816964285714285"/>
+        </view>
+    </objects>
+</document>
