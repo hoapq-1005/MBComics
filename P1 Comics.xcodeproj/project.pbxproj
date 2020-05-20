@@ -35,12 +35,6 @@
 		4010724D2474D93F005F81E3 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4010722B2474D93F005F81E3 /* LoadingView.xib */; };
 		4010724E2474D93F005F81E3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010722C2474D93F005F81E3 /* LoadingView.swift */; };
 		4010724F2474D93F005F81E3 /* BaseCustomNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010722D2474D93F005F81E3 /* BaseCustomNibView.swift */; };
-		401072502474D93F005F81E3 /* TextFieldInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010722F2474D93F005F81E3 /* TextFieldInput.swift */; };
-		401072512474D93F005F81E3 /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401072312474D93F005F81E3 /* EmptyView.xib */; };
-		401072522474D93F005F81E3 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072322474D93F005F81E3 /* EmptyView.swift */; };
-		401072532474D93F005F81E3 /* LoadFailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072342474D93F005F81E3 /* LoadFailView.swift */; };
-		401072542474D93F005F81E3 /* LoadFailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401072352474D93F005F81E3 /* LoadFailView.xib */; };
-		401072552474D93F005F81E3 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072372474D93F005F81E3 /* GrowingTextView.swift */; };
 		401072592474DAA2005F81E3 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072582474DAA2005F81E3 /* Application.swift */; };
 		4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4010725A2474DC13005F81E3 /* GoogleService-Info.plist */; };
 		4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061871724750E3A007C8F8D /* HomeViewController.swift */; };
@@ -80,12 +74,6 @@
 		4010722B2474D93F005F81E3 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		4010722C2474D93F005F81E3 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		4010722D2474D93F005F81E3 /* BaseCustomNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCustomNibView.swift; sourceTree = "<group>"; };
-		4010722F2474D93F005F81E3 /* TextFieldInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldInput.swift; sourceTree = "<group>"; };
-		401072312474D93F005F81E3 /* EmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
-		401072322474D93F005F81E3 /* EmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
-		401072342474D93F005F81E3 /* LoadFailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFailView.swift; sourceTree = "<group>"; };
-		401072352474D93F005F81E3 /* LoadFailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadFailView.xib; sourceTree = "<group>"; };
-		401072372474D93F005F81E3 /* GrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
 		401072582474DAA2005F81E3 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		4010725A2474DC13005F81E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4061871724750E3A007C8F8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -273,10 +261,6 @@
 			children = (
 				4010722A2474D93F005F81E3 /* LoadingView */,
 				4010722D2474D93F005F81E3 /* BaseCustomNibView.swift */,
-				4010722E2474D93F005F81E3 /* TextFieldInput */,
-				401072302474D93F005F81E3 /* ViewEmpty */,
-				401072332474D93F005F81E3 /* LoadFailView */,
-				401072362474D93F005F81E3 /* GrowingTextView */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -288,40 +272,6 @@
 				4010722C2474D93F005F81E3 /* LoadingView.swift */,
 			);
 			path = LoadingView;
-			sourceTree = "<group>";
-		};
-		4010722E2474D93F005F81E3 /* TextFieldInput */ = {
-			isa = PBXGroup;
-			children = (
-				4010722F2474D93F005F81E3 /* TextFieldInput.swift */,
-			);
-			path = TextFieldInput;
-			sourceTree = "<group>";
-		};
-		401072302474D93F005F81E3 /* ViewEmpty */ = {
-			isa = PBXGroup;
-			children = (
-				401072312474D93F005F81E3 /* EmptyView.xib */,
-				401072322474D93F005F81E3 /* EmptyView.swift */,
-			);
-			path = ViewEmpty;
-			sourceTree = "<group>";
-		};
-		401072332474D93F005F81E3 /* LoadFailView */ = {
-			isa = PBXGroup;
-			children = (
-				401072342474D93F005F81E3 /* LoadFailView.swift */,
-				401072352474D93F005F81E3 /* LoadFailView.xib */,
-			);
-			path = LoadFailView;
-			sourceTree = "<group>";
-		};
-		401072362474D93F005F81E3 /* GrowingTextView */ = {
-			isa = PBXGroup;
-			children = (
-				401072372474D93F005F81E3 /* GrowingTextView.swift */,
-			);
-			path = GrowingTextView;
 			sourceTree = "<group>";
 		};
 		401072562474DA59005F81E3 /* Main */ = {
@@ -450,9 +400,7 @@
 				401072002474D8E3005F81E3 /* LaunchScreen.storyboard in Resources */,
 				4010724A2474D93F005F81E3 /* PopupLoadingController.xib in Resources */,
 				401071FD2474D8E3005F81E3 /* Assets.xcassets in Resources */,
-				401072512474D93F005F81E3 /* EmptyView.xib in Resources */,
 				4010724D2474D93F005F81E3 /* LoadingView.xib in Resources */,
-				401072542474D93F005F81E3 /* LoadFailView.xib in Resources */,
 				4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */,
 				4061871A24750E3A007C8F8D /* HomeViewController.xib in Resources */,
 			);
@@ -514,12 +462,9 @@
 				4010723E2474D93F005F81E3 /* StringExtension.swift in Sources */,
 				4010724E2474D93F005F81E3 /* LoadingView.swift in Sources */,
 				4010724F2474D93F005F81E3 /* BaseCustomNibView.swift in Sources */,
-				401072552474D93F005F81E3 /* GrowingTextView.swift in Sources */,
 				401072482474D93F005F81E3 /* BaseViewController.swift in Sources */,
 				401072432474D93F005F81E3 /* KeychainPasswordItem.swift in Sources */,
 				4010723B2474D93F005F81E3 /* UITextFieldExtension.swift in Sources */,
-				401072522474D93F005F81E3 /* EmptyView.swift in Sources */,
-				401072502474D93F005F81E3 /* TextFieldInput.swift in Sources */,
 				4010723F2474D93F005F81E3 /* UIImageExtension.swift in Sources */,
 				401072452474D93F005F81E3 /* ApiDefine.swift in Sources */,
 				401072442474D93F005F81E3 /* BiometricsAuthHelper.swift in Sources */,
@@ -529,7 +474,6 @@
 				4010724C2474D93F005F81E3 /* BaseCLCell.swift in Sources */,
 				401072472474D93F005F81E3 /* DLog.swift in Sources */,
 				4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */,
-				401072532474D93F005F81E3 /* LoadFailView.swift in Sources */,
 				4010723A2474D93F005F81E3 /* ArrayExtension.swift in Sources */,
 				4010723D2474D93F005F81E3 /* UIViewExtension.swift in Sources */,
 				401072382474D93F005F81E3 /* UIImageViewExtension.swift in Sources */,
