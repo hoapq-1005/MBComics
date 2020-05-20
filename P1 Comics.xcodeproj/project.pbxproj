@@ -45,6 +45,10 @@
 		4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4010725A2474DC13005F81E3 /* GoogleService-Info.plist */; };
 		4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061871724750E3A007C8F8D /* HomeViewController.swift */; };
 		4061871A24750E3A007C8F8D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4061871824750E3A007C8F8D /* HomeViewController.xib */; };
+		4061871D247511E1007C8F8D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061871B247511E1007C8F8D /* SearchViewController.swift */; };
+		4061871E247511E1007C8F8D /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4061871C247511E1007C8F8D /* SearchViewController.xib */; };
+		40618721247511F5007C8F8D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061871F247511F5007C8F8D /* UserViewController.swift */; };
+		40618722247511F5007C8F8D /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40618720247511F5007C8F8D /* UserViewController.xib */; };
 		B19C4D24F6E25D5ED3614196 /* Pods_P1_Comics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9A4ED4E94887B967C034A8 /* Pods_P1_Comics.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +94,10 @@
 		4010725A2474DC13005F81E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4061871724750E3A007C8F8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4061871824750E3A007C8F8D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4061871B247511E1007C8F8D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4061871C247511E1007C8F8D /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		4061871F247511F5007C8F8D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		40618720247511F5007C8F8D /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 		66F25F8B293B42E7070BEB7F /* Pods-P1 Comics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P1 Comics.release.xcconfig"; path = "Target Support Files/Pods-P1 Comics/Pods-P1 Comics.release.xcconfig"; sourceTree = "<group>"; };
 		8B011B9BBA79E5C0CB0D9BC4 /* Pods-P1 Comics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P1 Comics.debug.xcconfig"; path = "Target Support Files/Pods-P1 Comics/Pods-P1 Comics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -353,6 +361,10 @@
 			children = (
 				4061871824750E3A007C8F8D /* HomeViewController.xib */,
 				4061871724750E3A007C8F8D /* HomeViewController.swift */,
+				4061871B247511E1007C8F8D /* SearchViewController.swift */,
+				4061871C247511E1007C8F8D /* SearchViewController.xib */,
+				4061871F247511F5007C8F8D /* UserViewController.swift */,
+				40618720247511F5007C8F8D /* UserViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -448,10 +460,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				401072002474D8E3005F81E3 /* LaunchScreen.storyboard in Resources */,
+				40618722247511F5007C8F8D /* UserViewController.xib in Resources */,
 				4010724A2474D93F005F81E3 /* PopupLoadingController.xib in Resources */,
 				401071FD2474D8E3005F81E3 /* Assets.xcassets in Resources */,
 				401072512474D93F005F81E3 /* EmptyView.xib in Resources */,
 				4010724D2474D93F005F81E3 /* LoadingView.xib in Resources */,
+				4061871E247511E1007C8F8D /* SearchViewController.xib in Resources */,
 				401072542474D93F005F81E3 /* LoadFailView.xib in Resources */,
 				4010725B2474DC13005F81E3 /* GoogleService-Info.plist in Resources */,
 				4061871A24750E3A007C8F8D /* HomeViewController.xib in Resources */,
@@ -514,6 +528,7 @@
 				4010723E2474D93F005F81E3 /* StringExtension.swift in Sources */,
 				4010724E2474D93F005F81E3 /* LoadingView.swift in Sources */,
 				4010724F2474D93F005F81E3 /* BaseCustomNibView.swift in Sources */,
+				4061871D247511E1007C8F8D /* SearchViewController.swift in Sources */,
 				401072552474D93F005F81E3 /* GrowingTextView.swift in Sources */,
 				401072482474D93F005F81E3 /* BaseViewController.swift in Sources */,
 				401072432474D93F005F81E3 /* KeychainPasswordItem.swift in Sources */,
@@ -523,6 +538,7 @@
 				4010723F2474D93F005F81E3 /* UIImageExtension.swift in Sources */,
 				401072452474D93F005F81E3 /* ApiDefine.swift in Sources */,
 				401072442474D93F005F81E3 /* BiometricsAuthHelper.swift in Sources */,
+				40618721247511F5007C8F8D /* UserViewController.swift in Sources */,
 				401072392474D93F005F81E3 /* UIColorExtension.swift in Sources */,
 				401072492474D93F005F81E3 /* PopupLoadingController.swift in Sources */,
 				4010723C2474D93F005F81E3 /* UIViewControllerExtension.swift in Sources */,

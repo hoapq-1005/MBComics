@@ -28,7 +28,13 @@ class Application {
         let homeVC = HomeViewController()
         homeVC.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
         
-        tabbar.viewControllers = [homeVC]
+        let searchVC = SearchViewController()
+        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
+        
+        let userVC = UserViewController()
+        userVC.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 2)
+        
+        tabbar.viewControllers = [homeVC, searchVC, userVC]
         
         return tabbar
     }
