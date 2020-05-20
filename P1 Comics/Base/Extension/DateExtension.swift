@@ -1,9 +1,7 @@
 //
 //  DateExtension.swift
-//  FiinClone
 //
-//  Created by ToRing on 10/30/19.
-//  Copyright © 2019 FiinClone. All rights reserved.
+//  Created by HoaPQ on 10/30/19.
 //
 
 import Foundation

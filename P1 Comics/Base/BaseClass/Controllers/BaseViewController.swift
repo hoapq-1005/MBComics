@@ -1,9 +1,8 @@
 //
 //  BaseController.swift
-//  TEnglish
 //
-//  Created by ToRing on 8/15/19.
-//  Copyright © 2019 toring. All rights reserved.
+//  Created by HoaPQ on 8/15/19.
+//  Copyright © 2019 HoaPQ. All rights reserved.
 //
 
 import UIKit

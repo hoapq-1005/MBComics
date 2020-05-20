@@ -2,7 +2,7 @@
 //  ApiDefine.swift
 //  SwiftBase
 //
-//  Created by ToRing on 9/5/19.
+//  Created by HoaPQ on 9/5/19.
 //  Copyright © 2019 SwiftBase. All rights reserved.
 //
 

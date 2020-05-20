@@ -1,9 +1,7 @@
 //
 //  TouchFaceIdAuth.swift
-//  FiinClone
 //
-//  Created by ToRing on 10/10/19.
-//  Copyright © 2019 FiinClone. All rights reserved.
+//  Created by HoaPQ on 10/10/19.
 //
 
 import Foundation

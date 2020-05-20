@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TEnglish
 //
-//  Created by ToRing on 4/14/19.
-//  Copyright © 2019 toring. All rights reserved.
+//  Created by HoaPQ on 4/14/19.
+//  Copyright © 2019 HoaPQ. All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,7 @@
 //
 //  UIImageViewExtension.swift
-//  FiinClone
 //
-//  Created by ToRing on 9/11/19.
-//  Copyright © 2019 FiinClone. All rights reserved.
+//  Created by HoaPQ on 9/11/19.
 //
 
 import UIKit

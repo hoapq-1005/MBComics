@@ -1,9 +1,7 @@
 //
 //  LoadFailView.swift
-//  FiinClone
 //
-//  Created by ToRing on 9/27/19.
-//  Copyright © 2019 FiinClone. All rights reserved.
+//  Created by HoaPQ on 9/27/19.
 //
 
 import Foundation

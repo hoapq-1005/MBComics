@@ -1,9 +1,7 @@
 //
 //  CustomTextField.swift
-//  FiinClone
 //
-//  Created by ToRing on 9/18/19.
-//  Copyright © 2019 FiinClone. All rights reserved.
+//  Created by HoaPQ on 9/18/19.
 //
 
 import UIKit
