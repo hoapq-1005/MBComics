@@ -18,7 +18,7 @@ import SwiftyJSON
 
 class ApiBase {
     private static var timeout: TimeInterval = 10
-    private static var baseUrl: String = ""
+    private static var baseUrl = ""
     
     static let shared: ApiBase = ApiBase()
     

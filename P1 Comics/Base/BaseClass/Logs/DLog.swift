@@ -31,7 +31,7 @@ fileprivate func dLog(_ tag: DLogTag, _ logMessage: Any, functionName: String = 
     let fileName = (fileName as NSString).lastPathComponent
     let logDate = Date().stringForLog()
     let logString = "\(logDate) \(tag) \(logMessage)\n\tAt: [\(fileName)] - [\(functionName)] - [Line \(line)]"
-    Swift.print(logString)
+    NSLog(logString)
     #endif
 }
 

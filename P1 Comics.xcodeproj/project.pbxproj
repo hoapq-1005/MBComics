@@ -11,16 +11,16 @@
 		401071F62474D8DF005F81E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401071F52474D8DF005F81E3 /* SceneDelegate.swift */; };
 		401071FD2474D8E3005F81E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401071FC2474D8E3005F81E3 /* Assets.xcassets */; };
 		401072002474D8E3005F81E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401071FE2474D8E3005F81E3 /* LaunchScreen.storyboard */; };
-		401072382474D93F005F81E3 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072092474D93F005F81E3 /* UIImageViewExtension.swift */; };
-		401072392474D93F005F81E3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720A2474D93F005F81E3 /* UIColorExtension.swift */; };
-		4010723A2474D93F005F81E3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720B2474D93F005F81E3 /* ArrayExtension.swift */; };
-		4010723B2474D93F005F81E3 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720C2474D93F005F81E3 /* UITextFieldExtension.swift */; };
-		4010723C2474D93F005F81E3 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720D2474D93F005F81E3 /* UIViewControllerExtension.swift */; };
-		4010723D2474D93F005F81E3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720E2474D93F005F81E3 /* UIViewExtension.swift */; };
-		4010723E2474D93F005F81E3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720F2474D93F005F81E3 /* StringExtension.swift */; };
-		4010723F2474D93F005F81E3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072102474D93F005F81E3 /* UIImageExtension.swift */; };
-		401072402474D93F005F81E3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072112474D93F005F81E3 /* DateExtension.swift */; };
-		401072412474D93F005F81E3 /* NSNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072122474D93F005F81E3 /* NSNumberExtension.swift */; };
+		401072382474D93F005F81E3 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072092474D93F005F81E3 /* UIImageView+.swift */; };
+		401072392474D93F005F81E3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720A2474D93F005F81E3 /* UIColor+.swift */; };
+		4010723A2474D93F005F81E3 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720B2474D93F005F81E3 /* Array+.swift */; };
+		4010723B2474D93F005F81E3 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720C2474D93F005F81E3 /* UITextField+.swift */; };
+		4010723C2474D93F005F81E3 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720D2474D93F005F81E3 /* UIViewController+.swift */; };
+		4010723D2474D93F005F81E3 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720E2474D93F005F81E3 /* UIView+.swift */; };
+		4010723E2474D93F005F81E3 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010720F2474D93F005F81E3 /* String+.swift */; };
+		4010723F2474D93F005F81E3 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072102474D93F005F81E3 /* UIImage+.swift */; };
+		401072402474D93F005F81E3 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072112474D93F005F81E3 /* Date+.swift */; };
+		401072412474D93F005F81E3 /* NSNumber+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072122474D93F005F81E3 /* NSNumber+.swift */; };
 		401072422474D93F005F81E3 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072182474D93F005F81E3 /* KeychainConfiguration.swift */; };
 		401072432474D93F005F81E3 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401072192474D93F005F81E3 /* KeychainPasswordItem.swift */; };
 		401072442474D93F005F81E3 /* BiometricsAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010721A2474D93F005F81E3 /* BiometricsAuthHelper.swift */; };
@@ -50,16 +50,16 @@
 		401071FC2474D8E3005F81E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401071FF2474D8E3005F81E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		401072012474D8E3005F81E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		401072092474D93F005F81E3 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		4010720A2474D93F005F81E3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		4010720B2474D93F005F81E3 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		4010720C2474D93F005F81E3 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		4010720D2474D93F005F81E3 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		4010720E2474D93F005F81E3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		4010720F2474D93F005F81E3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		401072102474D93F005F81E3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		401072112474D93F005F81E3 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		401072122474D93F005F81E3 /* NSNumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNumberExtension.swift; sourceTree = "<group>"; };
+		401072092474D93F005F81E3 /* UIImageView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		4010720A2474D93F005F81E3 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		4010720B2474D93F005F81E3 /* Array+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+		4010720C2474D93F005F81E3 /* UITextField+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		4010720D2474D93F005F81E3 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		4010720E2474D93F005F81E3 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		4010720F2474D93F005F81E3 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		401072102474D93F005F81E3 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		401072112474D93F005F81E3 /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		401072122474D93F005F81E3 /* NSNumber+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+.swift"; sourceTree = "<group>"; };
 		401072182474D93F005F81E3 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
 		401072192474D93F005F81E3 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		4010721A2474D93F005F81E3 /* BiometricsAuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricsAuthHelper.swift; sourceTree = "<group>"; };
@@ -143,16 +143,16 @@
 		401072082474D93F005F81E3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				401072092474D93F005F81E3 /* UIImageViewExtension.swift */,
-				4010720A2474D93F005F81E3 /* UIColorExtension.swift */,
-				4010720B2474D93F005F81E3 /* ArrayExtension.swift */,
-				4010720C2474D93F005F81E3 /* UITextFieldExtension.swift */,
-				4010720D2474D93F005F81E3 /* UIViewControllerExtension.swift */,
-				4010720E2474D93F005F81E3 /* UIViewExtension.swift */,
-				4010720F2474D93F005F81E3 /* StringExtension.swift */,
-				401072102474D93F005F81E3 /* UIImageExtension.swift */,
-				401072112474D93F005F81E3 /* DateExtension.swift */,
-				401072122474D93F005F81E3 /* NSNumberExtension.swift */,
+				401072092474D93F005F81E3 /* UIImageView+.swift */,
+				4010720A2474D93F005F81E3 /* UIColor+.swift */,
+				4010720B2474D93F005F81E3 /* Array+.swift */,
+				4010720C2474D93F005F81E3 /* UITextField+.swift */,
+				4010720D2474D93F005F81E3 /* UIViewController+.swift */,
+				4010720E2474D93F005F81E3 /* UIView+.swift */,
+				4010720F2474D93F005F81E3 /* String+.swift */,
+				401072102474D93F005F81E3 /* UIImage+.swift */,
+				401072112474D93F005F81E3 /* Date+.swift */,
+				401072122474D93F005F81E3 /* NSNumber+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -456,27 +456,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				401072592474DAA2005F81E3 /* Application.swift in Sources */,
-				401072412474D93F005F81E3 /* NSNumberExtension.swift in Sources */,
-				401072402474D93F005F81E3 /* DateExtension.swift in Sources */,
+				401072412474D93F005F81E3 /* NSNumber+.swift in Sources */,
+				401072402474D93F005F81E3 /* Date+.swift in Sources */,
 				401071F42474D8DF005F81E3 /* AppDelegate.swift in Sources */,
-				4010723E2474D93F005F81E3 /* StringExtension.swift in Sources */,
+				4010723E2474D93F005F81E3 /* String+.swift in Sources */,
 				4010724E2474D93F005F81E3 /* LoadingView.swift in Sources */,
 				4010724F2474D93F005F81E3 /* BaseCustomNibView.swift in Sources */,
 				401072482474D93F005F81E3 /* BaseViewController.swift in Sources */,
 				401072432474D93F005F81E3 /* KeychainPasswordItem.swift in Sources */,
-				4010723B2474D93F005F81E3 /* UITextFieldExtension.swift in Sources */,
-				4010723F2474D93F005F81E3 /* UIImageExtension.swift in Sources */,
+				4010723B2474D93F005F81E3 /* UITextField+.swift in Sources */,
+				4010723F2474D93F005F81E3 /* UIImage+.swift in Sources */,
 				401072452474D93F005F81E3 /* ApiDefine.swift in Sources */,
 				401072442474D93F005F81E3 /* BiometricsAuthHelper.swift in Sources */,
-				401072392474D93F005F81E3 /* UIColorExtension.swift in Sources */,
+				401072392474D93F005F81E3 /* UIColor+.swift in Sources */,
 				401072492474D93F005F81E3 /* PopupLoadingController.swift in Sources */,
-				4010723C2474D93F005F81E3 /* UIViewControllerExtension.swift in Sources */,
+				4010723C2474D93F005F81E3 /* UIViewController+.swift in Sources */,
 				4010724C2474D93F005F81E3 /* BaseCLCell.swift in Sources */,
 				401072472474D93F005F81E3 /* DLog.swift in Sources */,
 				4061871924750E3A007C8F8D /* HomeViewController.swift in Sources */,
-				4010723A2474D93F005F81E3 /* ArrayExtension.swift in Sources */,
-				4010723D2474D93F005F81E3 /* UIViewExtension.swift in Sources */,
-				401072382474D93F005F81E3 /* UIImageViewExtension.swift in Sources */,
+				4010723A2474D93F005F81E3 /* Array+.swift in Sources */,
+				4010723D2474D93F005F81E3 /* UIView+.swift in Sources */,
+				401072382474D93F005F81E3 /* UIImageView+.swift in Sources */,
 				401072422474D93F005F81E3 /* KeychainConfiguration.swift in Sources */,
 				401071F62474D8DF005F81E3 /* SceneDelegate.swift in Sources */,
 				4010724B2474D93F005F81E3 /* BaseTBCell.swift in Sources */,

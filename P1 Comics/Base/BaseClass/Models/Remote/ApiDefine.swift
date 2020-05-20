@@ -32,7 +32,7 @@ enum HTTPMethod: String {
 // Builder Config
 class ApiConfig {
     var timeout: TimeInterval = 10
-    var baseUrl: String = ""
+    var baseUrl = ""
     
     func baseUrl(_ baseUrl: String) -> ApiConfig {
         self.baseUrl = baseUrl
